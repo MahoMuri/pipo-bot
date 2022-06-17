@@ -22,7 +22,7 @@ export const command: Command = {
         const data = JSON.parse(await bot.redis.get(user.id));
 
         const textChannel = await interaction.guild.channels.fetch(
-            data.textChannelId
+            data?.textChannelId
         );
 
         if (textChannel) {
