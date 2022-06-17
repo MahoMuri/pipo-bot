@@ -1,0 +1,8 @@
+{
+    "token": "TOKEN_DEV",
+    "mongodb": "MONGODB_LOCALHOST",
+    "errorChannel": "DEV_ERROR_CHANNEL",
+    "interval": "10m",
+    "redisUrl": "redis://127.0.0.1/1",
+    "port": "3000"
+}

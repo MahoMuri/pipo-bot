@@ -1,0 +1,8 @@
+{
+    "token": "TOKEN_PROD",
+    "mongodb": "MONGODB_URI",
+    "errorChannel": "ERROR_CHANNEL",
+    "interval": "10m",
+    "redisUrl": "REDISTOGO_URL",
+    "port": "80"
+}
